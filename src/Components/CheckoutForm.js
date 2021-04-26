@@ -37,7 +37,7 @@ class CheckoutForm extends React.Component {
       <section className="checkoutForm">
         <h2>Checkout</h2>
         <form onSubmit={this.handleSubmit}>
-          <label htmlFor="firstName">First Name</label>
+          <label htmlFor="firstName">First Name </label>
           <input
             id="firstName"
             onChange={this.handleChange}
@@ -45,7 +45,8 @@ class CheckoutForm extends React.Component {
             name="firstName"
           ></input>
             <br></br>
-          <label htmlFor="lastName">Last Name</label>
+            <br></br>
+          <label htmlFor="lastName">Last Name </label>
           <input
             id="lastName"
             onChange={this.handleChange}
@@ -53,7 +54,8 @@ class CheckoutForm extends React.Component {
             name="lastName"
           ></input>
             <br></br>
-          <label htmlFor="email">Email</label>
+            <br></br>
+          <label htmlFor="email">Email </label>
           <input
             id="email"
             onChange={this.handleChange}
@@ -61,7 +63,8 @@ class CheckoutForm extends React.Component {
             name="email"
           ></input>
             <br></br>
-          <label htmlFor="creditCard">Credit Card</label>
+            <br></br>
+          <label htmlFor="creditCard">Credit Card </label>
           <input
             id="creditCard"
             onChange={this.handleChange}
@@ -69,7 +72,8 @@ class CheckoutForm extends React.Component {
             name="creditCard"
           ></input>
             <br></br>
-          <label htmlFor="zipCode">Zip Code</label>
+            <br></br>
+          <label htmlFor="zipCode">Zip Code </label>
           <input
             id="zipCode"
             onChange={this.handleChange}
@@ -77,7 +81,8 @@ class CheckoutForm extends React.Component {
             name="zipCode"
           ></input>
           <br></br>
-          <button>Buy Now</button>
+          <br></br>
+          <button>Buy Now </button>
         </form>
       </section>
     );
