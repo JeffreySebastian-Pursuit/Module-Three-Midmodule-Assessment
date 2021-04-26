@@ -1,3 +1,26 @@
-.Products{
+/* .Products{
     display: grid;
+    padding: 20px;
 }
+
+.Products ul{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.Products li{
+    gap: 10px;
+    padding: 10px;
+    list-style: none;
+    border: solid 1px black;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.checkoutForm{
+
+} */
